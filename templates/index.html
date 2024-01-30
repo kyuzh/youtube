@@ -1,0 +1,24 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Site Web Flask</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>{{ message }}</h1>
+        <form method="post">
+            <label for="video_url">URL de la vidéo YouTube:</label>
+            <input type="text" id="video_url" name="video_url" required>
+            <label for="output_path">Chemin de sortie (facultatif):</label>
+            <input type="text" id="output_path" name="output_path">
+            <button type="submit">Télécharger</button>
+        </form>
+    </div>
+</body>
+</html>
