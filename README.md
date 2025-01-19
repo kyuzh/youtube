@@ -18,4 +18,4 @@ Ce projet est une application web simple qui permet de télécharger des vidéos
 1. Clonez ce dépôt :
 
    ```bash
-   git clone https://github.com/votre-utilisateur/youtube-video-downloader.git
+   git clone https://github.com/kyuzh/youtube
